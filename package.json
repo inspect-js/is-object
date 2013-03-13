@@ -1,6 +1,6 @@
 {
   "name": "is-object",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Checks whether a value is an object",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
