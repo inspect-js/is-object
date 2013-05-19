@@ -30,7 +30,7 @@
     }
   ],
   "scripts": {
-    "test": "testem ci",
+    "test": "node test/index.js",
     "build": "browserify-server --bundle=test/index.js -o test/static/bundle.js --debug",
     "testem": "testem",
     "example": "browservefy ./examples/simple.js --browserify='browserify-server' --live -- --debug --bundle"
