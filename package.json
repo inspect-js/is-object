@@ -18,7 +18,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tape": "~0.2.2",
+    "tape": "~1.0.2",
     "browserify-server": "~2.1.18",
     "browservefy": "~0.0.7",
     "testem": "https://github.com/raynos/testem/tarball/master"
@@ -30,7 +30,7 @@
     }
   ],
   "scripts": {
-    "test": "testem ci",
+    "test": "node test/index.js",
     "build": "browserify-server --bundle=test/index.js -o test/static/bundle.js --debug",
     "testem": "testem",
     "example": "browservefy ./examples/simple.js --browserify='browserify-server' --live -- --debug --bundle"
@@ -38,16 +38,19 @@
   "testling": {
     "files": "test/index.js",
     "browsers": [
-      "ie/8..latest",
+      "ie/6..latest",
+      "firefox/3..6",
       "firefox/16..latest",
       "firefox/nightly",
       "chrome/22..latest",
       "chrome/canary",
-      "opera/12..latest",
+      "opera/10.0",
+      "opera/11..latest",
       "opera/next",
-      "safari/5.1..latest",
+      "safari/4..latest",
       "ipad/6.0..latest",
       "iphone/6.0..latest"
     ]
   }
 }
+
