@@ -18,7 +18,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tape": "~0.2.2",
+    "tape": "~1.0.2",
     "browserify-server": "~2.1.18",
     "browservefy": "~0.0.7",
     "testem": "https://github.com/raynos/testem/tarball/master"
@@ -51,3 +51,4 @@
     ]
   }
 }
+
