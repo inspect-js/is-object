@@ -22,7 +22,7 @@
     "browserify-server": "~2.1.18",
     "browservefy": "~0.0.10",
     "testem": "~0.6.8",
-	"covert": "~0.4.0"
+	"covert": "~1.0.0"
   },
   "licenses": [
     {
