@@ -1,4 +1,4 @@
-# is-object
+# is-object <sup>[![Version Badge][12]][11]</sup>
 
 [![build status][1]][2] [![dependency status][3]][4] [![dev dependency status][9]][10]
 
@@ -38,3 +38,5 @@ console.log(isObject(require("util"))) // true
   [8]: https://github.com/ljharb
   [9]: https://david-dm.org/ljharb/is-object/dev-status.svg
   [10]: https://david-dm.org/ljharb/is-object#info=devDependencies
+  [11]: https://npmjs.org/package/is-object
+  [12]: http://vb.teelaun.ch/ljharb/is-object.svg
