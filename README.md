@@ -1,6 +1,6 @@
 # is-object
 
-[![build status][1]][2] [![dependency status][3]][4]
+[![build status][1]][2] [![dependency status][3]][4] [![dev dependency status][9]][10]
 
 [![browser support][5]][6]
 
@@ -36,4 +36,5 @@ console.log(isObject(require("util"))) // true
   [6]: http://ci.testling.com/ljharb/is-object
   [7]: https://github.com/Raynos
   [8]: https://github.com/ljharb
-
+  [9]: https://david-dm.org/ljharb/is-object/dev-status.svg
+  [10]: https://david-dm.org/ljharb/is-object#info=devDependencies
