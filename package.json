@@ -32,7 +32,7 @@
 		}
 	],
 	"scripts": {
-		"test": "node test/index.js",
+		"test": "node test/index.js && npm run coverage-quiet",
 		"coverage": "covert test/index.js",
 		"coverage-quiet": "covert test/index.js --quiet"
 	},
