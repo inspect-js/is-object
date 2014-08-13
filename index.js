@@ -1,5 +1,5 @@
 module.exports = isObject
 
 function isObject(x) {
-    return typeof x === "object" && x !== null
+	return typeof x === "object" && x !== null
 }

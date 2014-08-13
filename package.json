@@ -1,63 +1,62 @@
 {
-  "name": "is-object",
-  "version": "0.1.2",
-  "description": "Checks whether a value is an object",
-  "keywords": [],
-  "author": "Raynos <raynos2@gmail.com>",
-  "repository": "git://github.com/ljharb/is-object.git",
-  "main": "index",
-  "homepage": "https://github.com/ljharb/is-object",
-  "contributors": [
-    {
-      "name": "Raynos"
-    },
-    {
-      "name": "Jordan Harband",
-      "url": "https://github.com/ljharb"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/ljharb/is-object/issues",
-    "email": "ljharb@gmail.com"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "tape": "~2.14.0",
-    "browserify-server": "~2.1.18",
-    "browservefy": "~0.0.10",
-    "testem": "~0.6.8",
-	"covert": "~1.0.0"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/ljharb/is-object/raw/master/LICENSE"
-    }
-  ],
-  "scripts": {
-    "test": "node test/index.js",
-    "build": "browserify-server --bundle=test/index.js -o test/static/bundle.js --debug",
-    "testem": "testem",
-    "example": "browservefy ./examples/simple.js --browserify='browserify-server' --live -- --debug --bundle",
-	"coverage": "covert test/index.js",
-	"coverage-quiet": "covert test/index.js --quiet"
-  },
-  "testling": {
-    "files": "test/index.js",
-    "browsers": [
-      "ie/6..latest",
-      "firefox/3..6",
-      "firefox/16..latest",
-      "firefox/nightly",
-      "chrome/22..latest",
-      "chrome/canary",
-      "opera/10.0",
-      "opera/11..latest",
-      "opera/next",
-      "safari/4..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest"
-    ]
-  }
+	"name": "is-object",
+	"version": "0.1.2",
+	"description": "Checks whether a value is an object",
+	"keywords": [],
+	"author": "Raynos <raynos2@gmail.com>",
+	"repository": "git://github.com/ljharb/is-object.git",
+	"main": "index",
+	"homepage": "https://github.com/ljharb/is-object",
+	"contributors": [
+		{
+			"name": "Raynos"
+		},
+		{
+			"name": "Jordan Harband",
+			"url": "https://github.com/ljharb"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/ljharb/is-object/issues",
+		"email": "ljharb@gmail.com"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"tape": "~2.14.0",
+		"browserify-server": "~2.1.18",
+		"browservefy": "~0.0.10",
+		"testem": "~0.6.8",
+		"covert": "~1.0.0"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://github.com/ljharb/is-object/raw/master/LICENSE"
+		}
+	],
+	"scripts": {
+		"test": "node test/index.js",
+		"build": "browserify-server --bundle=test/index.js -o test/static/bundle.js --debug",
+		"testem": "testem",
+		"example": "browservefy ./examples/simple.js --browserify='browserify-server' --live -- --debug --bundle",
+		"coverage": "covert test/index.js",
+		"coverage-quiet": "covert test/index.js --quiet"
+	},
+	"testling": {
+		"files": "test/index.js",
+		"browsers": [
+			"ie/6..latest",
+			"firefox/3..6",
+			"firefox/16..latest",
+			"firefox/nightly",
+			"chrome/22..latest",
+			"chrome/canary",
+			"opera/10.0",
+			"opera/11..latest",
+			"opera/next",
+			"safari/4..latest",
+			"ipad/6.0..latest",
+			"iphone/6.0..latest"
+		]
+	}
 }
-
