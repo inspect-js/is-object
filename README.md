@@ -26,7 +26,7 @@ console.log(isObject(require("util"))) // true
  - [Raynos][7]
  - [Jordan Harband][8]
 
-## MIT Licenced
+## MIT Licensed
 
   [1]: https://secure.travis-ci.org/ljharb/is-object.png
   [2]: http://travis-ci.org/ljharb/is-object
