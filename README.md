@@ -23,13 +23,17 @@ console.log(isObject(require("util"))) // true
 
 ## Contributors
 
- - Raynos
+ - [Raynos][7]
+ - [Jordan Harband][8]
 
 ## MIT Licenced
 
-  [1]: https://secure.travis-ci.org/Colingo/is-object.png
-  [2]: http://travis-ci.org/Colingo/is-object
-  [3]: http://david-dm.org/Colingo/is-object/status.png
-  [4]: http://david-dm.org/Colingo/is-object
-  [5]: http://ci.testling.com/Colingo/is-object.png
-  [6]: http://ci.testling.com/Colingo/is-object
+  [1]: https://secure.travis-ci.org/ljharb/is-object.png
+  [2]: http://travis-ci.org/ljharb/is-object
+  [3]: http://david-dm.org/ljharb/is-object/status.png
+  [4]: http://david-dm.org/ljharb/is-object
+  [5]: http://ci.testling.com/ljharb/is-object.png
+  [6]: http://ci.testling.com/ljharb/is-object
+  [7]: https://github.com/Raynos
+  [8]: https://github.com/ljharb
+
