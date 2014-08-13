@@ -1,5 +1,5 @@
-module.exports = isObject
+"use strict";
 
-function isObject(x) {
-	return typeof x === "object" && x !== null
-}
+module.exports = function isObject(x) {
+	return typeof x === "object" && x !== null;
+};
