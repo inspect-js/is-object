@@ -28,11 +28,11 @@ console.log(isObject(require("util"))) // true
 
 ## MIT Licensed
 
-  [1]: https://secure.travis-ci.org/ljharb/is-object.png
+  [1]: https://secure.travis-ci.org/ljharb/is-object.svg
   [2]: http://travis-ci.org/ljharb/is-object
-  [3]: http://david-dm.org/ljharb/is-object/status.png
+  [3]: http://david-dm.org/ljharb/is-object/status.svg
   [4]: http://david-dm.org/ljharb/is-object
-  [5]: http://ci.testling.com/ljharb/is-object.png
+  [5]: http://ci.testling.com/ljharb/is-object.svg
   [6]: http://ci.testling.com/ljharb/is-object
   [7]: https://github.com/Raynos
   [8]: https://github.com/ljharb
