@@ -13,10 +13,11 @@ Because `typeof null` is a troll.
 ## Example
 
 ```js
-var isObject = require("is-object")
+var isObject = require('is-object');
+var assert = require('assert');
 
-console.log(isObject(null)) // false
-console.log(isObject(require("util"))) // true
+assert.equal(isObject(null), false);
+assert.equal(isObject({}), true);
 ```
 
 ## Installation
