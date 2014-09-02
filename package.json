@@ -26,6 +26,7 @@
 		"covert": "~1.0.0",
 		"jscs": "~1.6.0"
 	},
+    "license": "MIT",
 	"licenses": [
 		{
 			"type": "MIT",
