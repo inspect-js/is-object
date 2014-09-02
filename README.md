@@ -1,6 +1,10 @@
 # is-object <sup>[![Version Badge][12]][11]</sup>
 
-[![build status][1]][2] [![dependency status][3]][4] [![dev dependency status][9]][10]
+[![build status][1]][2]
+[![dependency status][3]][4]
+[![dev dependency status][9]][10]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
 
 [![npm badge][13]][11]
 
@@ -44,3 +48,8 @@ assert.equal(isObject({}), true);
   [11]: https://npmjs.org/package/is-object
   [12]: http://vb.teelaun.ch/ljharb/is-object.svg
   [13]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
+[license-image]: http://img.shields.io/npm/l/is-object.svg
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/is-object.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=is-object
+
