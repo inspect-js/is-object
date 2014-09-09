@@ -1,8 +1,8 @@
 # is-object <sup>[![Version Badge][12]][11]</sup>
 
 [![build status][travis-svg]][travis-url]
-[![dependency status][3]][4]
-[![dev dependency status][9]][10]
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
@@ -37,14 +37,14 @@ assert.equal(isObject({}), true);
 
   [travis-svg]: https://secure.travis-ci.org/ljharb/is-object.svg
   [travis-url]: http://travis-ci.org/ljharb/is-object
-  [3]: http://david-dm.org/ljharb/is-object/status.svg
-  [4]: http://david-dm.org/ljharb/is-object
+  [deps-svg]: http://david-dm.org/ljharb/is-object/status.svg
+  [deps-url]: http://david-dm.org/ljharb/is-object
   [5]: http://ci.testling.com/ljharb/is-object.svg
   [6]: http://ci.testling.com/ljharb/is-object
   [7]: https://github.com/Raynos
   [8]: https://github.com/ljharb
-  [9]: https://david-dm.org/ljharb/is-object/dev-status.svg
-  [10]: https://david-dm.org/ljharb/is-object#info=devDependencies
+  [dev-deps-svg]: https://david-dm.org/ljharb/is-object/dev-status.svg
+  [dev-deps-url]: https://david-dm.org/ljharb/is-object#info=devDependencies
   [11]: https://npmjs.org/package/is-object
   [12]: http://vb.teelaun.ch/ljharb/is-object.svg
   [13]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
