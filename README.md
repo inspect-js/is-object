@@ -1,4 +1,4 @@
-# is-object <sup>[![Version Badge][12]][npm-url]</sup>
+# is-object <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
 
 [![build status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
@@ -46,7 +46,7 @@ assert.equal(isObject({}), true);
   [dev-deps-svg]: https://david-dm.org/ljharb/is-object/dev-status.svg
   [dev-deps-url]: https://david-dm.org/ljharb/is-object#info=devDependencies
   [npm-url]: https://npmjs.org/package/is-object
-  [12]: http://vb.teelaun.ch/ljharb/is-object.svg
+  [npm-version-svg]: http://vb.teelaun.ch/ljharb/is-object.svg
   [13]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/is-object.svg
 [license-url]: LICENSE
