@@ -8,7 +8,7 @@
 
 [![npm badge][13]][11]
 
-[![browser support][5]][6]
+[![browser support][testling-png]][testling-url]
 
 Checks whether a value is an object
 
@@ -39,8 +39,8 @@ assert.equal(isObject({}), true);
   [travis-url]: http://travis-ci.org/ljharb/is-object
   [deps-svg]: http://david-dm.org/ljharb/is-object/status.svg
   [deps-url]: http://david-dm.org/ljharb/is-object
-  [5]: http://ci.testling.com/ljharb/is-object.svg
-  [6]: http://ci.testling.com/ljharb/is-object
+  [testling-png]: http://ci.testling.com/ljharb/is-object.png
+  [testling-url]: http://ci.testling.com/ljharb/is-object
   [7]: https://github.com/Raynos
   [8]: https://github.com/ljharb
   [dev-deps-svg]: https://david-dm.org/ljharb/is-object/dev-status.svg
