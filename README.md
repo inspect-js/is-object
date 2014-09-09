@@ -6,7 +6,7 @@
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-[![npm badge][13]][npm-url]
+[![npm badge][npm-badge-png]][npm-url]
 
 [![browser support][testling-png]][testling-url]
 
@@ -47,7 +47,7 @@ assert.equal(isObject({}), true);
   [dev-deps-url]: https://david-dm.org/ljharb/is-object#info=devDependencies
   [npm-url]: https://npmjs.org/package/is-object
   [npm-version-svg]: http://vb.teelaun.ch/ljharb/is-object.svg
-  [13]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
+  [npm-badge-png]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/is-object.svg
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/is-object.svg
