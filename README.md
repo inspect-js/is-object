@@ -30,8 +30,8 @@ assert.equal(isObject({}), true);
 
 ## Contributors
 
- - [Raynos][7]
- - [Jordan Harband][8]
+ - [Raynos][raynos-github]
+ - [Jordan Harband][ljharb-github]
 
 ## MIT Licensed
 
@@ -41,8 +41,8 @@ assert.equal(isObject({}), true);
   [deps-url]: http://david-dm.org/ljharb/is-object
   [testling-png]: http://ci.testling.com/ljharb/is-object.png
   [testling-url]: http://ci.testling.com/ljharb/is-object
-  [7]: https://github.com/Raynos
-  [8]: https://github.com/ljharb
+  [raynos-github]: https://github.com/Raynos
+  [ljharb-github]: https://github.com/ljharb
   [dev-deps-svg]: https://david-dm.org/ljharb/is-object/dev-status.svg
   [dev-deps-url]: https://david-dm.org/ljharb/is-object#info=devDependencies
   [npm-url]: https://npmjs.org/package/is-object
