@@ -1,4 +1,4 @@
-# is-object <sup>[![Version Badge][12]][11]</sup>
+# is-object <sup>[![Version Badge][12]][npm-url]</sup>
 
 [![build status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
@@ -6,7 +6,7 @@
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-[![npm badge][13]][11]
+[![npm badge][13]][npm-url]
 
 [![browser support][testling-png]][testling-url]
 
@@ -45,7 +45,7 @@ assert.equal(isObject({}), true);
   [8]: https://github.com/ljharb
   [dev-deps-svg]: https://david-dm.org/ljharb/is-object/dev-status.svg
   [dev-deps-url]: https://david-dm.org/ljharb/is-object#info=devDependencies
-  [11]: https://npmjs.org/package/is-object
+  [npm-url]: https://npmjs.org/package/is-object
   [12]: http://vb.teelaun.ch/ljharb/is-object.svg
   [13]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/is-object.svg
