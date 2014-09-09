@@ -1,6 +1,6 @@
 # is-object <sup>[![Version Badge][12]][11]</sup>
 
-[![build status][1]][2]
+[![build status][travis-svg]][travis-url]
 [![dependency status][3]][4]
 [![dev dependency status][9]][10]
 [![License][license-image]][license-url]
@@ -35,8 +35,8 @@ assert.equal(isObject({}), true);
 
 ## MIT Licensed
 
-  [1]: https://secure.travis-ci.org/ljharb/is-object.svg
-  [2]: http://travis-ci.org/ljharb/is-object
+  [travis-svg]: https://secure.travis-ci.org/ljharb/is-object.svg
+  [travis-url]: http://travis-ci.org/ljharb/is-object
   [3]: http://david-dm.org/ljharb/is-object/status.svg
   [4]: http://david-dm.org/ljharb/is-object
   [5]: http://ci.testling.com/ljharb/is-object.svg
