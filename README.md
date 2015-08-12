@@ -46,7 +46,7 @@ assert.equal(isObject({}), true);
   [dev-deps-svg]: https://david-dm.org/ljharb/is-object/dev-status.svg
   [dev-deps-url]: https://david-dm.org/ljharb/is-object#info=devDependencies
   [npm-url]: https://npmjs.org/package/is-object
-  [npm-version-svg]: http://vb.teelaun.ch/ljharb/is-object.svg
+  [npm-version-svg]: http://versionbadg.es/ljharb/is-object.svg
   [npm-badge-png]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/is-object.svg
 [license-url]: LICENSE
