@@ -6,6 +6,9 @@
 	"author": "Raynos <raynos2@gmail.com>",
 	"repository": "git://github.com/ljharb/is-object.git",
 	"main": "index",
+	"files": [
+		"index.js"
+	],
 	"homepage": "https://github.com/ljharb/is-object",
 	"contributors": [
 		{
