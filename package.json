@@ -4,6 +4,9 @@
 	"description": "Checks whether a value is an object",
 	"keywords": [],
 	"author": "Raynos <raynos2@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"repository": "git://github.com/inspect-js/is-object.git",
 	"main": "index",
 	"homepage": "https://github.com/inspect-js/is-object",
