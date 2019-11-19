@@ -8,8 +8,6 @@
 
 [![npm badge][npm-badge-png]][npm-url]
 
-[![browser support][testling-png]][testling-url]
-
 Checks whether a value is an object
 
 Because `typeof null` is a troll.
@@ -35,19 +33,17 @@ assert.equal(isObject({}), true);
 
 ## MIT Licensed
 
-  [travis-svg]: https://secure.travis-ci.org/ljharb/is-object.svg
-  [travis-url]: http://travis-ci.org/ljharb/is-object
-  [deps-svg]: http://david-dm.org/ljharb/is-object/status.svg
-  [deps-url]: http://david-dm.org/ljharb/is-object
-  [testling-png]: http://ci.testling.com/ljharb/is-object.png
-  [testling-url]: http://ci.testling.com/ljharb/is-object
-  [raynos-github]: https://github.com/Raynos
-  [ljharb-github]: https://github.com/ljharb
-  [dev-deps-svg]: https://david-dm.org/ljharb/is-object/dev-status.svg
-  [dev-deps-url]: https://david-dm.org/ljharb/is-object#info=devDependencies
-  [npm-url]: https://npmjs.org/package/is-object
-  [npm-version-svg]: http://versionbadg.es/ljharb/is-object.svg
-  [npm-badge-png]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
+[travis-svg]: https://secure.travis-ci.org/inspect-js/is-object.svg
+[travis-url]: http://travis-ci.org/inspect-js/is-object
+[deps-svg]: http://david-dm.org/inspect-js/is-object/status.svg
+[deps-url]: http://david-dm.org/inspect-js/is-object
+[raynos-github]: https://github.com/Raynos
+[ljharb-github]: https://github.com/ljharb
+[dev-deps-svg]: https://david-dm.org/inspect-js/is-object/dev-status.svg
+[dev-deps-url]: https://david-dm.org/inspect-js/is-object#info=devDependencies
+[npm-url]: https://npmjs.org/package/is-object
+[npm-version-svg]: http://versionbadg.es/inspect-js/is-object.svg
+[npm-badge-png]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/is-object.svg
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/is-object.svg

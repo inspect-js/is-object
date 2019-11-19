@@ -4,9 +4,9 @@
 	"description": "Checks whether a value is an object",
 	"keywords": [],
 	"author": "Raynos <raynos2@gmail.com>",
-	"repository": "git://github.com/ljharb/is-object.git",
+	"repository": "git://github.com/inspect-js/is-object.git",
 	"main": "index",
-	"homepage": "https://github.com/ljharb/is-object",
+	"homepage": "https://github.com/inspect-js/is-object",
 	"contributors": [
 		{
 			"name": "Raynos"
@@ -17,7 +17,7 @@
 		}
 	],
 	"bugs": {
-		"url": "https://github.com/ljharb/is-object/issues",
+		"url": "https://github.com/inspect-js/is-object/issues",
 		"email": "ljharb@gmail.com"
 	},
 	"dependencies": {},
@@ -31,7 +31,7 @@
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "http://github.com/ljharb/is-object/raw/master/LICENSE"
+			"url": "http://github.com/inspect-js/is-object/raw/master/LICENSE"
 		}
 	],
 	"scripts": {
