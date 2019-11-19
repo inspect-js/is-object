@@ -37,7 +37,9 @@
 	],
 	"scripts": {
 		"pretest": "npm run lint",
-		"test": "node test && npm run coverage -- --quiet",
+		"tests-only": "node test",
+		"test": "npm run tests-only && npm run coverage -- --quiet",
+		"posttest": "npx aud",
 		"coverage": "covert test/index.js",
 		"lint": "eslint .",
 		"version": "auto-changelog && git add CHANGELOG.md",
