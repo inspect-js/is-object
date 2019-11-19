@@ -22,9 +22,10 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
+		"@ljharb/eslint-config": "^15.0.2",
 		"auto-changelog": "^1.16.2",
 		"covert": "^1.1.0",
-		"jscs": "^2.1.0",
+		"eslint": "^6.6.0",
 		"tape": "^4.0.3"
 	},
 	"license": "MIT",
@@ -35,10 +36,10 @@
 		}
 	],
 	"scripts": {
-		"test": "npm run lint && node test/index.js && npm run coverage-quiet",
+		"pretest": "npm run lint",
+		"test": "node test && npm run coverage -- --quiet",
 		"coverage": "covert test/index.js",
-		"coverage-quiet": "covert test/index.js --quiet",
-		"lint": "jscs *.js */*.js",
+		"lint": "eslint .",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
