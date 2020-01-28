@@ -25,11 +25,12 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^15.0.2",
+		"@ljharb/eslint-config": "^16.0.0",
 		"auto-changelog": "^1.16.2",
 		"covert": "^1.1.1",
-		"eslint": "^6.6.0",
-		"tape": "^4.11.0"
+		"eslint": "^6.8.0",
+		"safe-publish-latest": "^1.1.4",
+		"tape": "^5.0.0-next.4"
 	},
 	"license": "MIT",
 	"licenses": [
@@ -39,6 +40,7 @@
 		}
 	],
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
 		"tests-only": "node test",
 		"test": "npm run tests-only && npm run coverage -- --quiet",
