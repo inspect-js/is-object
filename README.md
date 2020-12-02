@@ -1,6 +1,5 @@
 # is-object <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
 
-[![build status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -33,8 +32,6 @@ assert.equal(isObject({}), true);
 
 ## MIT Licensed
 
-[travis-svg]: https://secure.travis-ci.org/inspect-js/is-object.svg
-[travis-url]: http://travis-ci.org/inspect-js/is-object
 [deps-svg]: http://david-dm.org/inspect-js/is-object/status.svg
 [deps-url]: http://david-dm.org/inspect-js/is-object
 [raynos-github]: https://github.com/Raynos
