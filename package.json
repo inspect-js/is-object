@@ -28,8 +28,8 @@
 		"@ljharb/eslint-config": "^17.2.0",
 		"aud": "^1.1.2",
 		"auto-changelog": "^2.2.0",
-		"covert": "^1.1.1",
 		"eslint": "^7.7.0",
+		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
@@ -43,11 +43,9 @@
 	"scripts": {
 		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
-		"tests-only": "node test",
-		"test": "npm run tests-only && npm run coverage -- --quiet",
+		"tests-only": "nyc tape 'test/**/*.js'",
+		"test": "npm run tests-only",
 		"posttest": "npx aud --production",
-		"coverage": "covert test/index.js",
-		"lint": "eslint .",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
