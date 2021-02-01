@@ -32,17 +32,17 @@ assert.equal(isObject({}), true);
 
 ## MIT Licensed
 
-[deps-svg]: http://david-dm.org/inspect-js/is-object/status.svg
-[deps-url]: http://david-dm.org/inspect-js/is-object
+[deps-svg]: https://david-dm.org/inspect-js/is-object/status.svg
+[deps-url]: https://david-dm.org/inspect-js/is-object
 [raynos-github]: https://github.com/Raynos
 [ljharb-github]: https://github.com/ljharb
 [dev-deps-svg]: https://david-dm.org/inspect-js/is-object/dev-status.svg
 [dev-deps-url]: https://david-dm.org/inspect-js/is-object#info=devDependencies
 [npm-url]: https://npmjs.org/package/is-object
-[npm-version-svg]: http://versionbadg.es/inspect-js/is-object.svg
+[npm-version-svg]: https://versionbadg.es/inspect-js/is-object.svg
 [npm-badge-png]: https://nodei.co/npm/is-object.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/is-object.svg
+[license-image]: https://img.shields.io/npm/l/is-object.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/is-object.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=is-object
+[downloads-image]: https://img.shields.io/npm/dm/is-object.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=is-object
 
