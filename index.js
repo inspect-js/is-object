@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = function isObject(x) {
-	return typeof x === 'object' && x !== null;
+	return x !== null && typeof x === 'object';
 };
