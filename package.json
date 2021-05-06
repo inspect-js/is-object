@@ -23,15 +23,14 @@
 		"url": "https://github.com/inspect-js/is-object/issues",
 		"email": "ljharb@gmail.com"
 	},
-	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.5.0",
-		"aud": "^1.1.3",
+		"@ljharb/eslint-config": "^17.6.0",
+		"aud": "^1.1.5",
 		"auto-changelog": "^2.2.1",
-		"eslint": "^7.19.0",
+		"eslint": "^7.25.0",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.1.1"
+		"tape": "^5.2.2"
 	},
 	"license": "MIT",
 	"licenses": [
