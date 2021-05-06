@@ -1,5 +1,7 @@
 # is-object <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
 
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -45,4 +47,8 @@ assert.equal(isObject({}), true);
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/is-object.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=is-object
+[codecov-image]: https://codecov.io/gh/inspect-js/is-object/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/inspect-js/is-object/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/is-object
+[actions-url]: https://github.com/inspect-js/is-object/actions
 
