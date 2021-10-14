@@ -24,13 +24,13 @@
 		"email": "ljharb@gmail.com"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.6.0",
+		"@ljharb/eslint-config": "^18.0.0",
 		"aud": "^1.1.5",
-		"auto-changelog": "^2.2.1",
-		"eslint": "^7.25.0",
+		"auto-changelog": "^2.3.0",
+		"eslint": "^7.32.0",
 		"nyc": "^10.3.2",
-		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.2.2"
+		"safe-publish-latest": "^1.1.5",
+		"tape": "^5.3.1"
 	},
 	"license": "MIT",
 	"licenses": [
