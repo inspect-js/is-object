@@ -49,6 +49,6 @@ assert.equal(isObject({}), true);
 [downloads-url]: https://npm-stat.com/charts.html?package=is-object
 [codecov-image]: https://codecov.io/gh/inspect-js/is-object/branch/main/graphs/badge.svg
 [codecov-url]: https://app.codecov.io/gh/inspect-js/is-object/
-[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/is-object
+[actions-image]: https://img.shields.io/github/check-runs/inspect-js/is-object/main
 [actions-url]: https://github.com/inspect-js/is-object/actions
 
