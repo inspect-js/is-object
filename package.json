@@ -10,6 +10,9 @@
 	"repository": "git+https://github.com/inspect-js/is-object.git",
 	"main": "index",
 	"homepage": "https://github.com/inspect-js/is-object",
+	"engines": {
+		"node": ">= 0.4"
+	},
 	"contributors": [
 		{
 			"name": "Raynos"
